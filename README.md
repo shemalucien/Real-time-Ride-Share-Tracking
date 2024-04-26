@@ -2,6 +2,13 @@ Real-time Ride-Share Tracking
 
 ## Approach
 
+### Google Map API Services Used 
+
+- **Maps JavaScript API** : Provides interactive maps for embedding into web pages.
+- **Geocoding API** : Converts addresses (like "Nyabugogo") into geographic coordinates (like latitude -1.939826787816454 and longitude 30.0445426438232 ), and vice versa.
+- **Geolocation API** : Retrieves the geographic location information associated with the device's IP address, Wi-Fi, or cellular network towers.
+- **Directions API** : Provides directions between multiple locations by calculating optimal routes, distances, and travel times for driving, walking, bicycling, or transit.
+
 ### Dependencies
 
 - `@vis.gl/react-google-maps`: This library provides React components for integrating Google Maps into a React application.
